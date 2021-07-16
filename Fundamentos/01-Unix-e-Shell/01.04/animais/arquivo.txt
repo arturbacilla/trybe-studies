@@ -1,0 +1,5 @@
+  247  nano
+  248  subl
+  249  subl /etc/default/keyboard
+  250  clear
+  251  history | tail -n 5

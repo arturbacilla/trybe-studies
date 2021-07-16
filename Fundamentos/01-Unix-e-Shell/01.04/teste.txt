@@ -1,0 +1,7 @@
+Este é´mais um teste
+abacate
+orange
+maçã
+repolho
+obra & progresso
+obra && progresso
