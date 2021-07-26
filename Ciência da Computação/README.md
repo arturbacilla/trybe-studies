@@ -6,14 +6,20 @@ _"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vi
 
 O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais.
 
-## :one: Fundamentos do Desenvolvimento Web (01-10) :hourglass_flowing_sand:
-##### :white_check_mark: 02/10
+## :four: Ciência da Computação :hourglass_flowing_sand:
 
-## :two: Desenvolvimento Front-end (11-19) :hourglass_flowing_sand:
-##### :white_check_mark: 00/09
+##### Bloco 35: Introdução - Ciência da Computação
 
-## :three: Desenvolvimento Back-end (20-32):hourglass_flowing_sand:
-##### :white_check_mark: 00/13
+- [ ] 35-1: _Arquitetura de Computadores_
+- [ ] 35-2: _Arquitetura de redes_
+- [ ] 35-3: _Redes de computadores, ferramentas e segurança_
+- [ ] 35-4: _[Projeto - Explorando os protocolos]()_
 
-## :four: Ciência da Computação (33-38) :hourglass_flowing_sand:
-##### :white_check_mark: 00/06
+##### Bloco 36: Python
+
+- [ ] 35-1: _Aprendendo Python_
+- [ ] 35-2: _Testes e Exceções_
+- [ ] 35-3: _Entrada e Saída de dados_
+- [ ] 36-4: _Entrada e Saída de dados_
+- [ ] 35-5: _[Projeto - Tech news]()_
+
