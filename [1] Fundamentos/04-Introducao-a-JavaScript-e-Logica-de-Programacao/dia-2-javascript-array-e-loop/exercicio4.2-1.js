@@ -12,3 +12,9 @@ avg = soma/(numbers.length);
 
 console.log("soma total: " + soma);
 console.log("média aritimética: " + avg);
+
+if (avg > 20){
+  console.log("valor maior que 20");
+}else{
+  console.log("valor menor ou igual a 20");
+}
