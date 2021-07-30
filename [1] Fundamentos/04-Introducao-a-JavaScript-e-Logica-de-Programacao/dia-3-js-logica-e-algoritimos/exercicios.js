@@ -1,4 +1,4 @@
-let n = 5;
+let n = 7;
 
 if (n <= 1){
   console.log("N precisa ser maior que 2");
@@ -22,4 +22,16 @@ if (n <= 1){
   for (let k = 1; k < n+1; k += 2){
     console.log(" ".repeat((n-k)/2) + "*".repeat(k) + " ".repeat((n-k)/2));
   };
+  console.log(); 
+  // faz uma pirâmide ôca com base n
+  for (let f = 1; f < n+1; f += 2){
+    if (f==1){
+      console.log(" ".repeat((n-1)/2) + "*" + " ".repeat((n-1)/2));
+    }else if(f==n){
+      console.log("*".repeat(n));
+    }else{
+      console.log(" ".repeat((n-f)/2) + "*" + " ".repeat(f-2) + "*" + " ".repeat((n-f)/2));
+    }
+  };
+
 }
