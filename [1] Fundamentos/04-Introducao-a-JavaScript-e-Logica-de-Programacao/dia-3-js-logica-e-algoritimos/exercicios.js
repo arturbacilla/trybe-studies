@@ -17,6 +17,9 @@ if (n <= 1){
   for (let k = 1; k < n+1; k += 1){
     console.log(" ".repeat(n-k) + "*".repeat(k));
   };
-
-
+  console.log();
+  // faz uma pirâmide com base n
+  for (let k = 1; k < n+1; k += 2){
+    console.log(" ".repeat((n-k)/2) + "*".repeat(k) + " ".repeat((n-k)/2));
+  };
 }
