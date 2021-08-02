@@ -19,7 +19,7 @@ for (let chaves in info){
 console.log();
 
 let info2 = {
-  personagem: 'Tio Patinhas',
+  personagem: 'Margarida',
   origem: 'Christmas on Bear Mountain, Dells Four Color Comics #178',
   nota: 'O último MacPatinhas',
   recorrente: 'Sim'
@@ -29,8 +29,8 @@ console.log("Ultimo exercicio:");
 
 for (key in info){
     if (key=='recorrente' && info[key] == info2[key]){
-    console.log("Ambos recorrentes");  
+      console.log("Ambos recorrentes");  
     }else{
-    console.log(info[key] + " e " + info2[key]);
+      console.log(info[key] + " e " + info2[key]);
     }
 }
