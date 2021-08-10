@@ -84,6 +84,17 @@
       pictureLeft.src = 'https://picsum.photos/200';
       pictureLeft.className = 'small-image';
       document.querySelector(".left-content").appendChild(pictureLeft);
+      //8
+      let unorderedRightList = document.createElement('ul');
+      document.querySelector(".right-content").appendChild(unorderedRightList);
+      let RuListValues = ['um', 'dois', 'três', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez'];      
+      for (num of RuListValues){
+        let RulElements = document.createElement('li');
+        RulElements.innerHTML = num
+        document.querySelector(".right-content ul").appendChild(RulElements);
+      }
+      
+      
     </script>
   </body>
 </html>
