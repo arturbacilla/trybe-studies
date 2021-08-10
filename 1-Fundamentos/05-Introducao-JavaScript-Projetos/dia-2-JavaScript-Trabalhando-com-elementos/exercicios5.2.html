@@ -109,6 +109,13 @@
       document.querySelector(".right-content").style.marginRight = "auto";
       //14
       document.querySelector(".center-content").style.backgroundColor = "green";
+      //15
+      let whichList = document.querySelector(".right-content ul");
+      let whichListSize = whichList.childNodes.length;
+      for (index = 1; index <= 2; index += 1){
+      whichList.removeChild(whichList.childNodes[whichListSize-index]);
+      }
+
     </script>
   </body>
 </html>
