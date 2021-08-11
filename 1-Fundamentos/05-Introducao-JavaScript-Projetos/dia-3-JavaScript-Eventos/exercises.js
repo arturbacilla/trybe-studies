@@ -17,10 +17,18 @@ createDaysOfTheWeek();
 function createDaysOfMonth() {
 const dezDaysList = [29, 30, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31];
 const daysUList = document.querySelector('#days');
+const feriados = [24,25,31];
+const sextas = [4,11,18,25];
 
 for (d in dezDaysList) {
   const daysLi = document.createElement('li');
   daysLi.innerHTML = dezDaysList[d];
+  daysLi.className = "day";
+  if (feriados.includes(dezDaysList[d])){
+    daysLi.classList.add("holiday");
+  }else if (sextas.includes(dezDaysList[d])) {
+    daysLi.classList.add("friday");
+  }  
   daysUList.appendChild(daysLi);
 };
 };
