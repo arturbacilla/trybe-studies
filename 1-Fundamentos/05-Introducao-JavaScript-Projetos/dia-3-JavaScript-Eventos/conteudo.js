@@ -2,7 +2,7 @@ const firstLi = document.getElementById('first-li');
 const secondLi = document.getElementById('second-li');
 const thirdLi = document.getElementById('third-li');
 const input = document.getElementById('input');
-const myWebpage = document.getElementById('my-spotrybefy');
+const myWebpage = document.getElementById('mySpotrybefy');
 
 /*
  Copie esse arquivo e edite apenas ele;
@@ -18,7 +18,10 @@ a cor do mesmo;
 
 Segue abaixo um exemplo do uso de event.target:
 */
-
+function classTecher(event) {
+  event.target.class = "tech";
+  console.log(event.target.id);
+}
 function resetText(event) {
   // O Event é passado como um parâmetro para a função.
   event.target.innerText = 'Opção reiniciada';
@@ -27,6 +30,9 @@ function resetText(event) {
 }
 
 firstLi.addEventListener('dblclick', resetText);
+
+selectedElement = window.getSelection();
+selectedElement.addEventListener('click', classTecher)
 
 // Não precisa passar o parâmetro dentro da callback resetText. O próprio
 // navegador fará esse trabalho por você, não é legal? Desse jeito, o
