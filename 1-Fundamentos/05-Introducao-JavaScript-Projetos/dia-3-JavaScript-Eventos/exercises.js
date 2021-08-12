@@ -44,3 +44,10 @@ function addHolidayBtn(feriados){
   document.querySelector('div.buttons-container').appendChild(feriadoBtn);  
 }
 addHolidayBtn("Feriados");
+
+//Exercicio 3
+let holidayBtn = document.querySelector('#btn-holiday');
+holidayBtn.addEventListener('click', function(event){
+  let holidays = document.querySelectorAll(".holiday");
+  event.holidays.style.backgroundColor = "red";
+})
