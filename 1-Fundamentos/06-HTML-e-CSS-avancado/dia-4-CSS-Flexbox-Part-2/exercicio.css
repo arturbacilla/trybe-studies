@@ -19,12 +19,14 @@ body {
   display: flex;
   justify-content: center;
   flex-basis: 268px;
+  order:0;
   border: 2px solid yellow;
 }
 
 .menu-container {
   display: flex;
   flex-basis: 500px;
+  order:1;
   border: 2px solid green;
 }
 
