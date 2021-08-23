@@ -10,17 +10,22 @@ body {
 }
 
 .header-container {
-  background-color: #5C687C;
+  background-color: #a4a4a5;  /* #5C687C */
   display: flex;
+  border: 2px dashed red;
 }
 
 .logo-container {
   display: flex;
   justify-content: center;
+  flex-basis: 268px;
+  border: 2px solid yellow;
 }
 
 .menu-container {
   display: flex;
+  flex-basis: 500px;
+  border: 2px solid green;
 }
 
 .menu-container ul {
