@@ -27,6 +27,7 @@ body {
   display: flex;
   flex-basis: 500px;
   order:1;
+  align-self:center;
   border: 2px solid green;
 }
 
