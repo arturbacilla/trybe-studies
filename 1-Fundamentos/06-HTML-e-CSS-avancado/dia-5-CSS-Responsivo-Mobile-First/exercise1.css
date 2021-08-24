@@ -2,14 +2,15 @@ body {
   font-size: 18px;
 }
 h1 {
-
+  font-size: 28px;
 }
 h2 {
-
+  font-size: 24px;
 }
 
 img {
-    max-width: 100%;
+   max-width: 100%;
+   padding: 15px 0;
 }
 
 figure {
