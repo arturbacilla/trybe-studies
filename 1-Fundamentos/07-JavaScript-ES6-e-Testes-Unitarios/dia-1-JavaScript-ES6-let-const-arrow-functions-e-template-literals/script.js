@@ -27,6 +27,9 @@ testingScope(true);
 
 const oddsAndEvens = [13, 3, 4, 10, 7, 2];
 
-// Seu código aqui.
+//referencia em https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/sort
+const sortedArray = oddsAndEvens.sort(function (a,b) {
+  return a - b
+});
 
-console.log(oddsAndEvens); // será necessário alterar essa linha �
+console.log(`Os números ${sortedArray.join()} se encontram ordenados de forma crescente!`); // será necessário alterar essa linha �
