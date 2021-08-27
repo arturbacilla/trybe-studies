@@ -22,3 +22,6 @@ const sortedArray = oddsAndEvens.sort(function (a,b) {
 console.log(`Os números ${sortedArray.join()} se encontram ordenados de forma crescente!`); // será necessário alterar essa linha �
 
 //PARTE 2
+//ref https://stackoverflow.com/questions/25228394/how-do-i-write-an-arrow-function-in-es6-recursively
+const fatorial = (num) => (num >= 0 && num < 2) ? 1 : num*fatorial(num-1) ;
+console.log(fatorial(1));
