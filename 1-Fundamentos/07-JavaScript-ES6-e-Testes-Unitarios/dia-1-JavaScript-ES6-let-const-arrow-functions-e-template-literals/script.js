@@ -22,6 +22,20 @@ const sortedArray = oddsAndEvens.sort(function (a,b) {
 console.log(`Os números ${sortedArray.join()} se encontram ordenados de forma crescente!`); // será necessário alterar essa linha �
 
 //PARTE 2
+//1
 //ref https://stackoverflow.com/questions/25228394/how-do-i-write-an-arrow-function-in-es6-recursively
 const fatorial = (num) => (num >= 0 && num < 2) ? 1 : num*fatorial(num-1) ;
 console.log(fatorial(1));
+
+//2
+
+const longestWord = (phrase) => {
+  const countArray = [];
+  const wordsToCheck = phrase.split(' ');
+  wordsToCheck.forEach(word => {
+    countArray.push(word.length);
+  });
+  const biggerCount = Math.max.apply(countArray);
+  return biggerCount;
+}
+console.log(longestWord("Antônio foi no banheiros e não sabemos o que aconteceu"));
