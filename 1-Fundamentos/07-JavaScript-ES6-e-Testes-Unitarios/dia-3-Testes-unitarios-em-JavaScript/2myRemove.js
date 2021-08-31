@@ -11,3 +11,4 @@ function myRemove(arr, item) {
 }
 
 // implemente seus testes aqui
+assert.deepEqual(myRemove([1,2,3,4],3),[1,2,4]); //é necessário verificar os itens dentro dos arrays para determinar se o resultado é igual
