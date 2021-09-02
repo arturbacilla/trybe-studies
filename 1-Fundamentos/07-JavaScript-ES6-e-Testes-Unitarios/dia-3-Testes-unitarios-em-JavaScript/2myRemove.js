@@ -12,5 +12,9 @@ function myRemove(arr, item) {
 
 // implemente seus testes aqui
 assert.deepStrictEqual(myRemove([1,2,3,4],3),[1,2,4]); //é necessário verificar os itens dentro dos arrays e seus tipos para determinar se o resultado é igual.
-assert.notDeepStrictEqual(myRemove([1,2,3,4],3),[1,2,3,4])
+assert.notDeepStrictEqual(myRemove([1,2,3,4],3),[1,2,3,4]);
 
+const toCheck = [1,2,3,4];
+assert.fail(myRemove(toCheck,3), toCheck, 'O array sofreu alteração');
+assert.deepStrictEqual(myRemove(toCheck,3),toCheck);
+assert.deepStrictEqual(myRemove([1, 2, 3, 4], 5),toCheck);
