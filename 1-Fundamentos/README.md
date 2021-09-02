@@ -52,16 +52,16 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 6-1: _HTML & CSS - Forms_ 18/08/2021
 - [x] 6-2: _Bibliotecas JavaScript e Frameworks CSS_ 19/08/2021
 - [x] 6-3: _CSS Flexbox - Part 1_ 20/08/2021
-- [ ] 6-4: _CSS Flexbox - Part 2_
-- [ ] 6-5: _CSS Responsivo - Mobile First_
-- [ ] 6-6: _[Projeto - Página inicial do Facebook]()_
+- [x] 6-4: _CSS Flexbox - Part 2_ 23/08/2021
+- [x] 6-5: _CSS Responsivo - Mobile First_ 24/08/2021
+- [x] 6-6: _[Projeto - Trybewarts]()_ 26/08/2021
 
 ##### Bloco 7: JavaScript ES6 & Testes Unitários
 
-- [ ] 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
-- [ ] 7-2: _JavaScript ES6 - Objects_
-- [ ] 7-3: _Testes unitários em JavaScript_
-- [ ] 7-4: _[Projeto - JavaScript Testes Unitários]()_
+- [x] 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_ 27/08/2021
+- [x] 7-2: _JavaScript ES6 - Objects_ 30/08/2021
+- [x] 7-3: _Testes unitários em JavaScript_ 31/08/2021
+- [ ] 7-4: _[Projeto - JavaScript Testes Unitários]()_ 01/09/2021
 
 ##### Bloco 8: JavaScript ES6
 
