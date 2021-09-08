@@ -74,7 +74,12 @@ const expectedResult = [
 ];
 
 function formatedBookNames() {
-  // escreva seu código aqui
+  let completeString = [];
+  books.map((whichBook) => {
+    completeString.push(`${whichBook.name} - ${whichBook.genre} - ${whichBook.author.name}`);
+  });
+  return completeString;
 }
+console.log(formatedBookNames());
 
 assert.deepStrictEqual(formatedBookNames(), expectedResult);
