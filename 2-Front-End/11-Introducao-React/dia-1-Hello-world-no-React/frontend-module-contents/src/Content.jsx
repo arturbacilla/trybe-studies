@@ -4,7 +4,7 @@ const conteudos = [
   {
     conteudo: 'High Order Functions',
     bloco: 8,
-    status: 'Aprendido'
+    status: 'Aprendido',
   },
   {
     conteudo: 'Composicao de Componentes',
@@ -14,26 +14,30 @@ const conteudos = [
   {
     conteudo: 'Composicao de Estados',
     bloco: 12,
-    status: 'Aprenderei'
+    status: 'Aprenderei',
   },
   {
     conteudo: 'Redux',
     bloco: 16,
-    status: 'Aprenderei'
+    status: 'Aprenderei',
   },
 ];
 
 class Content extends Component {
-  render(){
+  render() {
     return (
       <div>
-        { conteudos.map((whichContent, index) => <div key={index}> { `O conteúdo é: ${whichContent.conteudo}
-        Status: ${whichContent.status}
-        Bloco: ${whichContent.bloco}
-        `} </div>)}
-      </div>    
-    )
+        {conteudos.map((whichContent, index) => (
+          <div key={index}>
+            {`O conteúdo é: ${whichContent.conteudo}
+         \nStatus: ${whichContent.status}
+         \nBloco: ${whichContent.bloco}
+        `}
+          </div>
+        ))}
+      </div>
+    );
   }
 }
 
-export default Content
+export default Content;
