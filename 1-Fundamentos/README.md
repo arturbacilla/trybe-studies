@@ -71,16 +71,16 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 8-4: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_ 09/09/2021
 - [x] 8-5: _[Projeto - Zoo functions]()_ 10/09/2021
 
-##### :white_check_mark: Bloco 9: Assincronicidade & Callbacks
+##### :white_check_mark: Bloco 9.1: Assincronicidade & Callbacks
 
-- [x] 9-1: _JavaScript Assíncrono e Callbacks_ 15/09/2021
-- [x] 9-2: _JavaScript Promises_ 16/09/2021
-- [x] 9-3: _[Projeto - Carrinho de Compras]()_ 17/09/2021
+- [x] 9.1-1: _JavaScript Assíncrono e Callbacks_ 15/09/2021
+- [x] 9.1-2: _JavaScript Promises_ 16/09/2021
+- [x] 9.1-3: _[Projeto - Carrinho de Compras]()_ 17/09/2021
 
-##### :white_check_mark: Bloco 10: Jest
+##### :white_check_mark: Bloco 9.2: Jest
 
-- [x] 10-1: _Primeiros passos no Jest_ 21/09/2021
-- [x] 10-2: _Jest - Testes Assíncronos_ 22/09/2021
-- [x] 10-3: _Jest - Simulando comportamentos_ 23/09/2021
-- [x] 10-4: _[Projeto - Jest Assíncrono e Mocking]()_ 24/09/2021
+- [x] 9.2-1: _Primeiros passos no Jest_ 21/09/2021
+- [x] 9.2-2: _Jest - Testes Assíncronos_ 22/09/2021
+- [x] 9.2-3: _Jest - Simulando comportamentos_ 23/09/2021
+- [x] 9.2-4: _[Projeto - Jest Assíncrono e Mocking]()_ 24/09/2021
 
